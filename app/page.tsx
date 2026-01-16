@@ -1,23 +1,17 @@
-import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { Stats } from "@/components/stats"
 import { About } from "@/components/about"
 import { Facilities } from "@/components/facilities"
 import { Achievements } from "@/components/achievements"
-import { Footer } from "@/components/footer"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <main>
-        <Hero />
-        <Stats />
-        <About />
-        <Facilities />
-        <Achievements />
-      </main>
-      <Footer />
-    </div>
+    <>
+      <Hero />
+      <Stats />
+      <About />
+      <Facilities />
+      <Achievements />
+    </>
   )
 }

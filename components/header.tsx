@@ -4,8 +4,10 @@ import Link from "next/link"
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Moon, Sun, Menu, X } from "lucide-react"
+import { useSession, signOut } from "next-auth/react"
 
 export function Header() {
+  const { data: session } = useSession()
   const [theme, setTheme] = useState<"light" | "dark">("light")
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -62,6 +64,14 @@ export function Header() {
             <Button variant="ghost" size="icon" onClick={toggleTheme} aria-label="Переключить тему">
               {theme === "light" ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
             </Button>
+
+            {session ? (
+              <Button onClick={() => signOut()}>Sign Out</Button>
+            ) : (
+              <Link href="/login">
+                <Button>Sign In</Button>
+              </Link>
+            )}
 
             <Button
               variant="ghost"
