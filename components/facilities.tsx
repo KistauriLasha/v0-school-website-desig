@@ -41,22 +41,22 @@ export function Facilities() {
             )
           })}
           <div className="max-w-lg">
-            <h2 className="text-3xl font-bold mb-4">НАША ЦЕЛЬ</h2>
-            <p className="text-muted-foreground mb-6 text-lg">
+            <h2 className="text-5xl font-bold mb-4">НАША ЦЕЛЬ</h2>
+            <p className="text-muted-foreground mb-6 text-2xl">
               Наша главная цель – создание комфортной и мотивирующей среды для всестороннего развития личности. Мы стремимся:
             </p>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
-                <span className="text-muted-foreground text-lg">Дать прочные и актуальные знания, необходимые для успешного поступления в вузы и самореализации в современном мире.</span>
+                <span className="text-muted-foreground text-2xl">Дать прочные и актуальные знания, необходимые для успешного поступления в вузы и самореализации в современном мире.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
-                <span className="text-muted-foreground text-lg">Воспитать ответственных граждан, уважающих историю, культуру и традиции нашей страны.</span>
+                <span className="text-muted-foreground text-2xl">Воспитать ответственных граждан, уважающих историю, культуру и традиции нашей страны.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-3 mt-1">•</span>
-                <span className="text-muted-foreground text-lg">Раскрыть потенциал каждого ребёнка через индивидуальный подход, внеклассную деятельность и проектную работу.</span>
+                <span className="text-muted-foreground text-2xl">Раскрыть потенциал каждого ребёнка через индивидуальный подход, внеклассную деятельность и проектную работу.</span>
               </li>
             </ul>
           </div>
