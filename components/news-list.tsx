@@ -12,7 +12,19 @@ interface NewsItem {
   icon: typeof Trophy
 }
 
-const newsItems: NewsItem[] = []
+import { Trophy } from "lucide-react"
+
+const newsItems: NewsItem[] = [
+  {
+    id: 1,
+    title: "Новость",
+    date: "2024-07-29",
+    category: "Объявления",
+    description: "Описание новости",
+    image: "/news-image.jpg",
+    icon: Trophy,
+  },
+]
 
 export function NewsList() {
   const getCategoryColor = (category: NewsItem["category"]) => {
