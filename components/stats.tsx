@@ -12,17 +12,12 @@ export function Stats() {
       value: "800+",
       label: "Учеников",
     },
-    {
-      icon: Building2,
-      value: "3",
-      label: "Этажа современного здания",
-    },
   ]
 
   return (
     <section className="py-16 bg-secondary">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-8 sm:gap-16">
           {stats.map((stat, index) => {
             const Icon = stat.icon
             return (
