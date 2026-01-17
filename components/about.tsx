@@ -16,7 +16,7 @@ export function About() {
           </div>
           <div className="relative">
             <Card className="overflow-hidden">
-              <img src="/-------------------------------------.jpg" alt="А. К. Назадзе" className="w-full h-auto object-cover" />
+              <img src="/Aleksandra_Nozadze.jpg" alt="А. К. Назадзе" className="w-full h-auto object-cover" />
             </Card>
           </div>
         </div>
