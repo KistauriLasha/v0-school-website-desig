@@ -51,7 +51,7 @@ export default function RegisterPage() {
                   <SelectContent>
                     <SelectItem value="student">Ученик</SelectItem>
                     <SelectItem value="parent">Родитель</SelectItem>
-                    <SelectItem value="teacher">Учитель</SelectItem>
+                    <SelectItem value="teacher">Преподаватель, админ</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
